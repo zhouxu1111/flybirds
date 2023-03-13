@@ -22,6 +22,14 @@ class Step:
     name = "web_step"
 
     @classmethod
+    def jump_to_page_waite(cls, context, param1, param2):
+    # plugin_page = g_context.page
+    # page = plugin_page()
+    page = gr.get_value("plugin_page")
+    page.navigate(context, param1)
+    page.sleep(context, param2)
+
+    @classmethod
     def jump_to_page(cls, context, param):
         # plugin_page = g_context.page
         # page = plugin_page()
