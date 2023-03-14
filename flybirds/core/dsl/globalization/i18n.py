@@ -86,6 +86,7 @@ step_language = {
         "start record": ["开始录屏"],
         "stop record": ["结束录屏"],
         "go to url[{param}]": ["跳转到[{param}]", "跳转页面到[{param}]"],
+        "go to url[{param1}] and wait [{param2}] seconds": ["跳转到[{param1}]并且等待[{param2}]秒", "跳转页面到[{param1}]并且等待[{param2}]秒"],
         "return to previous page": ["返回上一页"],
         "go to home page": ["回到首页"],
         "logon account[{selector1}]password[{selector2}]": [
