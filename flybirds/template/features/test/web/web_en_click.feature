@@ -7,6 +7,11 @@
      And wait[3]seconds
      Then screenshot
 
+   Scenario: click text
+     When go to url[百度] and wait 3 seconds
+     And click text[新闻]
+     And wait[3]seconds
+     Then screenshot
 
    Scenario: click text
      When go to url[百度]
